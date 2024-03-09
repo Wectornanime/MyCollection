@@ -2,6 +2,6 @@
   <h2>Jogos Registrados</h2>
 
   <section class="gameList">
-    <app-game-card *ngFor="let game of gl" [gameCoverUrl]="game.imgCover" [gameCoverAlt]="game.imgAlt" />
+    <app-game-card *ngFor="let game of gl" [gameAssets]="game" />
   </section>
 </main>

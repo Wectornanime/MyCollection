@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { GameDetails } from '../../types/game.type';
 
 @Component({
   selector: 'app-game-card',
@@ -8,8 +9,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './game-card.component.scss'
 })
 export class GameCardComponent {
-  @Input() gameDetailsUrl!: string;
-  @Input() gameCoverUrl!: string;
-  @Input() gameCoverAlt!: string;
+  @Input() gameAssets!:GameDetails;
 
 }
