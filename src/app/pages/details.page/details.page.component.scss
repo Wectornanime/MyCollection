@@ -78,11 +78,16 @@ main {
   }
 
   .gameImages {
+    padding-bottom: 2em;
     .images {
       display: flex;
       gap: 5px;
       flex-wrap: wrap;
       align-items: center;
+
+      img {
+        width: 150px;
+      }
     }
   }
 }

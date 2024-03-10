@@ -40,12 +40,6 @@ export class DetailsPageComponent {
   game!:GameDetails;
   nPlayers!: string;
 
-  images: string[] = [
-    'https://cdn.mobygames.com/303f2fe4-bef6-11ed-9c42-02420a000140.webp',
-    'https://cdn.mobygames.com/6a58ee0a-bf72-11ed-9521-02420a000152.webp',
-    'https://cdn.mobygames.com/2cc5d020-bf73-11ed-9521-02420a000152.webp'
-  ];
-
   constructor(private  route:ActivatedRoute) {}
 
   ngOnInit(): void {

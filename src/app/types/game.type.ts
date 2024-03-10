@@ -8,4 +8,11 @@ export interface GameDetails {
   release: string;
   plataform: string;
   players: number;
+  publishers: string[];
+  devlopers: string[];
+  genres: string[];
+  gameImages: string[];
+  gameTrailer: string;
+  gameRating: number;
+
 }

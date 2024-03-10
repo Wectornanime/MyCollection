@@ -10,7 +10,19 @@ export const gameList:GameDetails[] = [
     "about": "Dragon Ball: Advanced Adventure segue as façanhas do jovem Goku enquanto ele parte pela primeira vez em busca das lendárias Dragon Balls. Baseado nos primeiros capítulos do mangá (antes da série se transformar na série Dragon Ball Z), os jogadores abrem caminho através dos níveis de plataforma, derrotando incontáveis ​​capangas e chefes inspirados em eventos e personagens cruciais da série. Embora os níveis do jogo sejam brigas diretas, duelos especiais e sequências de torneios funcionam como jogos de luta clássicos, embora com controles simplificados. Goku pode socar, chutar e usar seu bastão mágico. Após certo ponto do jogo, ao obter o Flying Nimbus, ele recebe a habilidade de entrar em combate aéreo. Depois de completar o modo história, os personagens de duelo ficam disponíveis para lutas individuais personalizáveis. Personagens e minijogos adicionais podem ser desbloqueados satisfazendo requisitos especiais, por ex. completar o modo história desbloqueia o demônio de Goku, Kuririn, como personagem jogável.",
     "release": "18/11/2004",
     "plataform": "GBA",
-    "players": 2
+    "players": 2,
+    "publishers": ["Banpresto Co., Ltd.", "Atari Europe S.A.S.U.", "Atari, Inc."],
+    "devlopers": ["Dimps Corporation"],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://cdn.mobygames.com/303f2fe4-bef6-11ed-9c42-02420a000140.webp",
+      "https://cdn.mobygames.com/b9ed8a70-bf72-11ed-9521-02420a000152.webp",
+      "https://cdn.mobygames.com/6a58ee0a-bf72-11ed-9521-02420a000152.webp",
+      "https://cdn.mobygames.com/c659aafa-bef5-11ed-9c42-02420a000140.webp",
+      "https://cdn.mobygames.com/2cc5d020-bf73-11ed-9521-02420a000152.webp"
+    ],
+    "gameTrailer": "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy_Advance/Video/Formated/Dragonball__Advanced_Adventure___2006___Atari.mp4",
+    "gameRating": 7.8
   },
   {
     "id": 2,
@@ -21,7 +33,18 @@ export const gameList:GameDetails[] = [
     "about": "Durante um festival com a Princesa Zelda, Link encontra um mago misterioso, chamado Vaati, que transforma a princesa em pedra. Incapaz de detê-los, o rei pede a Link que se encontre com uma raça de pessoas minúsculas conhecidas como Minish, que podem ajudar em sua situação. Em suas viagens, Link se junta a um boné falante chamado Ezlo, que consegue encolher Link ao tamanho de um Minish para que ele possa se encontrar com eles. Com suas novas habilidades, Link deve salvar o reino da ameaça de Vaati. The Legend of Zelda: The Minish Cap é um jogo de ação e aventura de cima para baixo que conta as origens do malvado Vaati de Four Swords. Os jogadores assumem o papel de Link enquanto conquistam várias masmorras para recuperar ferramentas essenciais para combater inimigos e progredir através de vários obstáculos. Itens como as Mole Mitts permitem que Link cave na terra, enquanto o Gust Jar pode ser usado para sugar inimigos, itens e impulsionar Link. Link também pode encolher até o tamanho de um Minish com a ajuda de Ezlo, o boné falante. O Minish Cap usa a mecânica de jogo de encolhimento para tornar o território familiar novo e diferente. Poças se transformam em rios enormes, pintinhos são monstros enormes e inimigos comuns se tornam chefes mortais do tamanho de Minish. Link também pode trocar itens chamados 'Kinstones' com pessoas no jogo - quando duas peças da mesma Kinstone são unidas, novas áreas se abrem, baús de tesouro aparecem e, às vezes, até recompensas úteis são dadas a Link.",
     "release": "10/01/2005",
     "plataform": "GBA",
-    "players": 1
+    "players": 1,
+    "publishers": ["Nintendo Co., Ltd."],
+    "devlopers": ["Capcom Co., Ltd."],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://www.mobygames.com/game/16009/the-legend-of-zelda-the-minish-cap/screenshots/gameboy-advance/97268/",
+      "https://www.mobygames.com/game/16009/the-legend-of-zelda-the-minish-cap/screenshots/gameboy-advance/97272/",
+      "https://www.mobygames.com/game/16009/the-legend-of-zelda-the-minish-cap/screenshots/gameboy-advance/97271/",
+      "https://www.mobygames.com/game/16009/the-legend-of-zelda-the-minish-cap/screenshots/gameboy-advance/97270/"
+    ],
+    "gameTrailer": "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy_Advance/Video/Formated/Legend_of_Zelda__The_Minish_Cap___2005___Nintendo.mp4",
+    "gameRating": 8.6
   },
 {
     "id": 3,
@@ -32,7 +55,16 @@ export const gameList:GameDetails[] = [
     "about": "Donkey Kong está de volta ao Donkey Kong Country da Nintendo, com um novo companheiro, Diddy Kong, em uma louca aventura na ilha. Desafiados pela tribo enlouquecida de Kremlings reptilianos, eles tentam recuperar sua horda de bananas roubada! Armados com movimentos extremamente rápidos, músculos impressionantes e acrobacias aéreas incríveis, nossa dupla está pronta para enfrentar seus adversários astutos. Com a ajuda da peculiar família de Donkey Kong e dos seus animais selvagens, eles discutem e fogem através do interminável caos dos macacos. O cartucho de competição Donkey Kong Country é uma variante de competição reduzida de Donkey Kong Country fabricada para uso na competição de jogos Nintendo PowerFest '94 e posteriormente apresentada no evento Blockbuster World Video Game Championships II. Apenas 2.500 cópias do Cartucho de Competição foram lançadas. O jogo real consiste em alguns níveis selecionados de Donkey Kong Country com a adição de um contador de pontos e alguns pequenos ajustes para incentivar a pontuação, com o objetivo de marcar o máximo de pontos possível. A casa na árvore e a caverna das bananas no início de Jungle Hijinxs foram desativadas e todos os Animal Tokens nos níveis iniciais foram substituídos por cachos de banana, tornando impossível chegar à rodada de bônus sem o uso de um dispositivo de trapaça. O jogador também recebe 50 vidas extras iniciais em vez das 5 como no jogo original. O jogo tem um limite de tempo de cinco minutos, que é exibido no centro da tela. Após o tempo previsto, o jogo congela.",
     "release": "24/11/1994",
     "plataform": "SNES",
-    "players": 2
+    "players": 2,
+    "publishers": ["Nintendo Co., Ltd."],
+    "devlopers": ["Rare Limited"],
+    "genres": ["Action", "Plataform"],
+    "gameImages": [
+      "https://cdn.mobygames.com/c428e9a8-ac0d-11ed-9eb0-02420a000136.webp",
+      "https://cdn.mobygames.com/c4de6af8-ac0d-11ed-9eb0-02420a000136.webp"
+    ],
+    "gameTrailer": "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_SNES/Video/Formated/Donkey_Kong_Country___1994___Nintendo.mp4",
+    "gameRating": 8.1
   },
   {
     "id": 4,
@@ -43,7 +75,26 @@ export const gameList:GameDetails[] = [
     "about": "Super velocidade! Quebre a barreira da velocidade dos videogames com Sonic the Hedgehog. Avance rapidamente usando o ataque giratório supersônico. Faça um loop desafiando a gravidade. Mergulhe nos túneis. Em seguida, corra para a segurança com os tênis poderosos do Sonic. Tudo em um ritmo frenético. Super Gráficos! Ajude Sonic a escapar da lava derretida borbulhante. Nade em cachoeiras turbulentas. Escala montanhas verdes brilhantes. E passe pelas luzes cintilantes da cidade. Existe até um labirinto giratório de 360 ​​graus. Você nunca viu nada parecido. Atitude da Ceia! Sonic tem uma atitude que simplesmente não desiste. Ele é divertido e engraçado, mas duro como pregos enquanto luta para libertar seus amigos do mal. Então espere. Sonic pode ser o próximo super-herói do mundo...",
     "release": "23/06/1991",
     "plataform": "Geneses",
-    "players": 1
+    "players": 1,
+    "publishers": [
+      "SEGA of America, Inc.",
+      "SEGA Enterprises Ltd.",
+      "Tec Toy Indústria de Brinquedos S.A.",
+      "SEGA Europe Ltd.",
+      "SEGA Mobile",
+      "Tec Toy Mobile",
+      "Electronic Arts, Inc.",
+      "Sony Computer Entertainment America Inc.",
+      "Nintendo Co., Ltd."
+    ],
+    "devlopers": ["Sonic Team"],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://cdn.mobygames.com/c4e7e6a2-ab6b-11ed-b430-02420a0001a0.webp",
+      "https://cdn.mobygames.com/c5c899e0-ab6b-11ed-b430-02420a0001a0.webp"
+    ],
+    "gameTrailer": "https://www.gamesdatabase.org/Media/SYSTEM/Arcade/Video/Formated/Sonic_The_Hedgehog___1993___Sega.mp4",
+    "gameRating": 8.0
   },
   {
     "id": 5,
@@ -54,7 +105,25 @@ export const gameList:GameDetails[] = [
     "about": "Há problemas nas minas! A atividade vulcânica prendeu vários mineiros e é sua função salvá-los. Como Roderick Hero, você precisa percorrer o perigoso poço da mina, evitando as criaturas perigosas e a lava, e descobrir onde os mineiros estão localizados antes que você fique sem energia. Para ajudar em sua missão, Roderick Hero conta com diversos tipos de equipamentos úteis. Um pacote de acessórios permitirá que você flutue e voe ao redor do poço da mina e (com sorte) evite os muitos perigos dentro dele. Seu capacete possui um feixe de microlaser de curto alcance que pode ser usado para destruir morcegos, aranhas, cobras e outras criaturas que você encontrará nas minas. De vez em quando, o seu caminho através da mina pode ser bloqueado por paredes de pedra ou lava. Você começa cada missão com seis bananas de dinamite que podem ser usadas para destruir esses obstáculos (mas tome cuidado para não se explodir!) Se ficar sem dinamite, seu raio laser também pode ser usado para destruir as paredes, embora isso demore mais e consuma mais energia. À medida que os níveis avançam, o poço da mina se tornará mais longo e mais parecido com um labirinto, as criaturas bloquearão o caminho com mais frequência e aparecerão paredes de lava e poças que são perigosas ao toque. Títulos alternativos 'HERO: Operação de resgate de emergência por helicóptero'",
     "release": "1984",
     "plataform": "Atari 2600",
-    "players": 1
+    "players": 1,
+    "publishers": [
+      "Pony Canyon, Inc.",
+      "Activision, Inc.",
+      "Al Alamiah",
+      "Home Entertainment Suppliers Pty. Ltd.",
+      "Polyvox",
+      "SEGA Enterprises Ltd.",
+      "Firebird Software",
+      "Microsoft Corporation"
+    ],
+    "devlopers": ["Activision, Inc"],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://cdn.mobygames.com/d872ade0-ab72-11ed-b9a3-02420a000197.webp",
+      "https://cdn.mobygames.com/da34f9c6-ab72-11ed-b9a3-02420a000197.webp"
+    ],
+    "gameTrailer": "https://www.gamesdatabase.org/Media/SYSTEM/Atari_2600/Video/Formated/H_E_R_O____1984___Home_Entertainment_Suppliers.mp4",
+    "gameRating": 7.8
   },
   {
     "id": 6,
@@ -65,7 +134,20 @@ export const gameList:GameDetails[] = [
     "about": "Mario é convidado para ir ao castelo de Peach, mas quando ele chega, Peach não está em lugar nenhum. Ele logo descobre por Toad que Bowser a sequestrou mais uma vez. O Rei Koopa também lançou um feitiço em seu castelo, aprisionando seus súditos. Então cabe a Mario quebrar o feitiço e resgatar Peach. Super Mario 64 é o primeiro jogo do Mario feito inteiramente com gráficos 3D. A jogabilidade principal é semelhante às versões anteriores da plataforma, concentrando-se em saltar, evitar obstáculos e derrotar inimigos. Os níveis podem ser explorados sem limites de tempo. As estrelas devem ser coletadas para desbloquear novas áreas, eventualmente ganhando acesso a várias partes do castelo de Bowser. Derrotar Bowser em cada andar obtém as chaves necessárias para destrancar grandes portas e entrar em outros andares, que contêm mais áreas. Mario tem mais movimentos à sua disposição nesta edição. Além de correr e pular, ele agora pode andar, agachar, rastejar, escalar e socar inimigos. Saltos duplos e triplos, saltos longos, saltos na parede e backflips também podem ser executados. Nadar debaixo d'água agora esgota o nível de oxigênio de Mario. Os itens devem ser recolhidos e carregados em alguns casos para resolver quebra-cabeças. Os power-ups incluem o Wing Cap, que permite que Mario voe; a tampa metálica, que o protege de danos (incluindo riscos ambientais, como gases venenosos); e o Vanish Cap, que torna Mario etéreo, permitindo-lhe passar por certos obstáculos (como telas de arame). Mario também pode entrar em canhões e ser alvejado por eles; combinar isso com a habilidade de voar concede acesso a áreas altas.",
     "release": "23/06/1996",
     "plataform": "N64",
-    "players": 1
+    "players": 1,
+    "publishers": [
+      "Nintendo Co., Ltd.",
+      "iQue, Ltd."
+    ],
+    "devlopers": ["Nintendo EAD"],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://cdn.mobygames.com/2c07e27a-ab6b-11ed-b9a3-02420a000197.webp",
+      "https://cdn.mobygames.com/1e5d878e-ac0f-11ed-87d3-02420a000134.webp",
+      "https://cdn.mobygames.com/1006e048-ab7b-11ed-91fb-02420a00019f.webp"
+    ],
+    "gameTrailer": "https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_N64/Video/Formated/Super_Mario_64___1996___Nintendo.mp4",
+    "gameRating": 8.5
   },
   {
     "id": 7,
@@ -76,7 +158,17 @@ export const gameList:GameDetails[] = [
     "about": "O jogo começa com a terra de Hyrule em estado de medo por causa de acontecimentos estranhos que ocorreram recentemente. Em uma noite de tempestade, a Princesa Zelda e as donzelas do santuário temem que a razão para esses acontecimentos seja o enfraquecimento do selo de Vaati. Ela invoca Link e o leva ao castelo para que ele possa protegê-la e às outras donzelas enquanto elas abrem o portal para o Santuário das Quatro Espadas. Quando o fazem, entretanto, uma figura sombria aparece no portal. Esta figura era Shadow Link, que então sequestrou as donzelas do santuário e as selou em cristais. Link o segue até o santuário onde ele recupera a Espada Quatro para destruir este sósia. A Espada Quatro é uma espada mágica que divide o usuário em três clones de si mesmo. Vaati é mais uma vez libertado e causa estragos no reino outrora pacífico.",
     "release": "07/06/2004",
     "plataform": "Game Cube",
-    "players": 4
+    "players": 4,
+    "publishers": ["Nintendo Co., Ltd."],
+    "devlopers": ["Nintendo EAD"],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://cdn.mobygames.com/f63d650c-becf-11ed-9c42-02420a000140.webp",
+      "https://cdn.mobygames.com/f70f4af4-becf-11ed-9c42-02420a000140.webp",
+      "https://cdn.mobygames.com/fa44f548-becf-11ed-9c42-02420a000140.webp"
+    ],
+    "gameTrailer": "https://www.youtube.com/watch?v=1AZMO5iBeDg",
+    "gameRating": 8.0
   },
   {
     "id": 8,
@@ -87,6 +179,19 @@ export const gameList:GameDetails[] = [
     "about": "Três jogadores assumem o papel de personagens Link individuais e se unem para trabalhar cooperativamente para resolver quebra-cabeças e lutar contra chefes em masmorras. O jogo apresenta a mesma visão de cima para baixo e estilo visual de The Legend of Zelda: A Link Between Worlds. Os jogadores devem trabalhar juntos, pois todos os corações são partilhados pelo grupo como um todo. Todos os três Links podem ser empilhados uns sobre os outros para criar um Totem para alcançar novos locais para resolver quebra-cabeças ou lutar contra inimigos. Roupas diferentes oferecem habilidades únicas.",
     "release": "23/10/2015",
     "plataform": "3DS",
-    "players": 3
+    "players": 3,
+    "publishers": ["Nintendo Co., Ltd."],
+    "devlopers": [
+      "Grezzo Co., Ltd.",
+      "Nintendo EPD"
+    ],
+    "genres": ["Action"],
+    "gameImages": [
+      "https://cdn.mobygames.com/b3ce64c4-ab7d-11ed-b9d3-02420a00019b.webp",
+      "https://www.mobygames.com/game/75907/the-legend-of-zelda-tri-force-heroes/promo/group-12884/image-142620/",
+      "https://www.mobygames.com/game/75907/the-legend-of-zelda-tri-force-heroes/promo/group-12884/image-142616/"
+    ],
+    "gameTrailer": "https://www.youtube.com/watch?v=nx4ww7H1WR4",
+    "gameRating": 7.0
   }
 ]

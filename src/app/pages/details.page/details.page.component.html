@@ -18,7 +18,7 @@
       <app-info-card iconName="ionCalendarOutline" [content]="game.release" />
       <app-info-card iconName="ionGameControllerOutline" [content]="game.plataform" />
       <app-info-card iconName="ionPeopleOutline" [content]="nPlayers" />
-      <app-info-card iconName="ionStarOutline" content="7.8" />
+      <app-info-card iconName="ionStarOutline" [content]="game.gameRating.toString()" />
     </section>
 
     <section class="resume">
@@ -28,8 +28,8 @@
 
     <section class="gameTrailer">
       <h2>Trailer:</h2>
-      <video controls preload="auto" muted loop>
-        <source src="https://www.gamesdatabase.org/Media/SYSTEM/Nintendo_Game_Boy_Advance/Video/Formated/Dragonball__Advanced_Adventure___2006___Atari.mp4" />
+      <video controls preload="auto" muted autoplay loop>
+        <source [src]="game.gameTrailer" />
       </video>
     </section>
 
@@ -37,26 +37,22 @@
       <h2>Sobre o jogo:</h2>
       <h3>Publishers:</h3>
       <ul>
-        <li>Banpresto Co., Ltd.</li>
-        <li>Atari Europe S.A.S.U.</li>
-        <li>Atari, Inc.</li>
+        <li *ngFor="let pub of game.publishers" >{{pub}}</li>
       </ul>
       <h3>Developers:</h3>
       <ul>
-        <li>Dimps Corporation</li>
+        <li *ngFor="let dev of game.devlopers" >{{dev}}</li>
       </ul>
       <h3>Categories:</h3>
       <ul>
-        <li>Action</li>
-        <li>Beat 'em up / brawler</li>
-        <li>Platform</li>
+        <li *ngFor="let gen of game.genres" >{{gen}}</li>
       </ul>
     </section>
 
     <section class="gameImages">
       <h2>Galeria do jogo:</h2>
       <div class="images">
-        <img  *ngFor="let img of images" [src]="img">
+        <img *ngFor="let img of game.gameImages" [src]="img">
       </div>
     </section>
   </main>
