@@ -2,7 +2,7 @@ export interface GameDetails {
   id: number;
   imgCover: string;
   imgBanner: string;
-  imgAlt: string;
+  logo: string;
   name: string;
   about: string;
   release: string;

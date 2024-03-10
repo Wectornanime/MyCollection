@@ -1,1 +1,23 @@
-<p>details.page works!</p>
+<div class="details_container">
+  <header>
+    <div class="detailBackground">
+      <img class="detailImage" [src]="game.imgBanner" alt="">
+    </div>
+
+    <div class="logo">
+      <img class="logoImg" [src]="game.logo" alt="">
+  </div>
+  </header>
+  <main>
+    <section class="firstInfo">
+      <app-info-card iconName="ionCalendarOutline" [content]="game.release" />
+      <app-info-card iconName="ionGameControllerOutline" [content]="game.plataform" />
+      <app-info-card iconName="ionPeopleOutline" [content]="nPlayers" />
+    </section>
+
+    <section class="description">
+        <h2>Sobre o jogo:</h2>
+        <p class="about">{{game.about}}</p>
+    </section>
+  </main>
+</div>

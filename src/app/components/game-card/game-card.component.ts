@@ -13,7 +13,7 @@ export class GameCardComponent {
   detailsUrl!: string;
 
   ngOnChanges() {
-    this.detailsUrl = '/details';
+    this.detailsUrl = '/details/'+this.gameAssets.id;
   }
 
 }
