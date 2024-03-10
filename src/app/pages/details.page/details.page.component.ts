@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
-import { ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline } from '@ng-icons/ionicons';
+import { ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline, ionChevronDownOutline, ionChevronUpOutline } from '@ng-icons/ionicons';
 
+// myCompnents
 import { InfoCardComponent } from '../../components/detailsPage/info-card/info-card.component';
 
 import { gameList } from '../../data/gamelist.data';
@@ -12,7 +13,7 @@ import { GameDetails } from '../../types/game.type';
   selector: 'app-details.page',
   standalone: true,
   imports: [NgIconComponent, InfoCardComponent],
-  providers: [provideIcons({ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline})],
+  providers: [provideIcons({ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline, ionChevronDownOutline, ionChevronUpOutline})],
   templateUrl: './details.page.component.html',
   styleUrl: './details.page.component.scss'
 })
@@ -35,6 +36,6 @@ export class DetailsPageComponent {
         this.nPlayers = (this.game.players > 1) ? (`${this.game.players} jogadores`) : (`${this.game.players} jogador`);
       };
     });
-  }
+  };
 
 }
