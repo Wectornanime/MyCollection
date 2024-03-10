@@ -1,7 +1,7 @@
 <div class="details_container">
   <header>
-    <button>
-      <a href="/" class="back_btn">
+    <button aria-label="Back to Home">
+      <a href="/" class="back_btn" aria-label="Back to Home" >
         <ng-icon name="ionChevronBackOutline" />
       </a>
     </button>
@@ -52,7 +52,7 @@
     <section class="gameImages">
       <h2>Galeria do jogo:</h2>
       <div class="images">
-        <img *ngFor="let img of game.gameImages" [src]="img">
+        <img *ngFor="let img of game.gameImages" [src]="img" [alt]="'Screenshot do jogo ' + game.name">
       </div>
     </section>
   </main>
