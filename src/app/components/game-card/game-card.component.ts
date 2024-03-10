@@ -10,5 +10,10 @@ import { GameDetails } from '../../types/game.type';
 })
 export class GameCardComponent {
   @Input() gameAssets!:GameDetails;
+  detailsUrl!: string;
+
+  ngOnChanges() {
+    this.detailsUrl = '/details';
+  }
 
 }
