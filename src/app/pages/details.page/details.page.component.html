@@ -1,5 +1,10 @@
 <div class="details_container">
   <header>
+    <button>
+      <a href="/" class="back_btn">
+        <ng-icon name="ionChevronBackOutline" />
+      </a>
+    </button>
     <div class="detailBackground">
       <img class="detailImage" [src]="game.imgBanner" alt="">
     </div>
@@ -53,10 +58,6 @@
       <div class="images">
         <img  *ngFor="let img of images" [src]="img">
       </div>
-    </section>
-
-    <section class="rewards">
-      <h2>Recompensas:</h2>
     </section>
   </main>
 </div>

@@ -2,7 +2,14 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
-import { ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline, ionChevronDownOutline, ionChevronUpOutline } from '@ng-icons/ionicons';
+import {
+  ionCalendarOutline,
+  ionPeopleOutline,
+  ionGameControllerOutline,
+  ionChevronDownOutline,
+  ionChevronUpOutline,
+  ionChevronBackOutline
+} from '@ng-icons/ionicons';
 
 // myCompnents
 import { InfoCardComponent } from '../../components/detailsPage/info-card/info-card.component';
@@ -15,7 +22,16 @@ import { GameDetails } from '../../types/game.type';
   selector: 'app-details.page',
   standalone: true,
   imports: [CommonModule, NgIconComponent, InfoCardComponent, CarouselComponent],
-  providers: [provideIcons({ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline, ionChevronDownOutline, ionChevronUpOutline})],
+  providers: [
+    provideIcons({
+      ionCalendarOutline,
+      ionPeopleOutline,
+      ionGameControllerOutline,
+      ionChevronDownOutline,
+      ionChevronUpOutline,
+      ionChevronBackOutline
+    })
+  ],
   templateUrl: './details.page.component.html',
   styleUrl: './details.page.component.scss'
 })

@@ -7,6 +7,23 @@ header {
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
 
+  button {
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 2em;
+    }
+  }
+
   .detailBackground {
     width: 100%;
     height:  100%;
