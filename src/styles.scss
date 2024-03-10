@@ -58,6 +58,18 @@ header, main, section, footer {
   margin: 10px 0;
 }
 
+ng-icon, a, p, h1, h2, h3, li {
+  color: $color-3;
+}
+
+li {
+  list-style: none;
+}
+
+video, img {
+  border-radius: 10px;
+}
+
 main {
   width: 90%;
   max-width: 700px;
@@ -65,4 +77,7 @@ main {
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+  background-color: $color-1;
+}
