@@ -50,6 +50,9 @@
 
     <section class="gameImages">
       <h2>Galeria do jogo:</h2>
+      <div class="images">
+        <img  *ngFor="let img of images" [src]="img">
+      </div>
     </section>
 
     <section class="rewards">

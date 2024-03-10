@@ -61,9 +61,11 @@ main {
   }
 
   .gameImages {
-    .carousel {
+    .images {
       display: flex;
       gap: 5px;
+      flex-wrap: wrap;
+      align-items: center;
     }
   }
 }

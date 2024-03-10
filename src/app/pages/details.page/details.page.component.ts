@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
 import { ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline, ionChevronDownOutline, ionChevronUpOutline } from '@ng-icons/ionicons';
 
 // myCompnents
 import { InfoCardComponent } from '../../components/detailsPage/info-card/info-card.component';
+import { CarouselComponent } from '../../components/detailsPage/carousel/carousel.component';
 
 import { gameList } from '../../data/gamelist.data';
 import { GameDetails } from '../../types/game.type';
@@ -12,7 +14,7 @@ import { GameDetails } from '../../types/game.type';
 @Component({
   selector: 'app-details.page',
   standalone: true,
-  imports: [NgIconComponent, InfoCardComponent],
+  imports: [CommonModule, NgIconComponent, InfoCardComponent, CarouselComponent],
   providers: [provideIcons({ionCalendarOutline, ionPeopleOutline, ionGameControllerOutline, ionChevronDownOutline, ionChevronUpOutline})],
   templateUrl: './details.page.component.html',
   styleUrl: './details.page.component.scss'
@@ -21,6 +23,12 @@ export class DetailsPageComponent {
   private id!:number;
   game!:GameDetails;
   nPlayers!: string;
+
+  images: string[] = [
+    'https://cdn.mobygames.com/303f2fe4-bef6-11ed-9c42-02420a000140.webp',
+    'https://cdn.mobygames.com/6a58ee0a-bf72-11ed-9521-02420a000152.webp',
+    'https://cdn.mobygames.com/2cc5d020-bf73-11ed-9521-02420a000152.webp'
+  ];
 
   constructor(private  route:ActivatedRoute) {}
 
