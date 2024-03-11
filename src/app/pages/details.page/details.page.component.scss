@@ -64,10 +64,16 @@ main {
   }
 
   .firstInfo {
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+
+    app-info-card {
+      background-color: #303134;
+      border-radius: 10px;
+    }
   }
 
   .gameTrailer {

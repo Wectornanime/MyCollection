@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { GameDetails } from '../../types/game.type';
 
 @Component({
   selector: 'app-game-card',
   standalone: true,
-  imports: [],
+  imports: [RouterLink, RouterLinkActive],
   templateUrl: './game-card.component.html',
   styleUrl: './game-card.component.scss'
 })

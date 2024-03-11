@@ -6,11 +6,11 @@
       </a>
     </button>
     <div class="detailBackground">
-      <img class="detailImage" [src]="game.imgBanner" alt="">
+      <img class="detailImage" [src]="game.imgBanner" [alt]="'Imagem ilustrativa do jogo ' + game.name" >
     </div>
 
     <div class="logo">
-      <img class="logoImg" [src]="game.logo" alt="">
+      <img class="logoImg" [src]="game.logo" [alt]="'Logo do jogo ' + game.name" >
   </div>
   </header>
   <main>
@@ -28,7 +28,7 @@
 
     <section class="gameTrailer">
       <h2>Trailer:</h2>
-      <video controls preload="auto" muted autoplay loop>
+      <video controls preload="auto" muted autoplay loop [volume]="0" >
         <source [src]="game.gameTrailer" />
       </video>
     </section>
