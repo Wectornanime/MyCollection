@@ -1,0 +1,21 @@
+<header>
+  <h1>MyCollection</h1>
+</header>
+
+<main class="home_container">
+
+  <!-- <section  class="searchSection">
+    <div class="custom-input">
+      <label for="inputSearch">
+        <ng-icon name="ionSearchOutline"></ng-icon>
+      </label>
+      <input id="inputSearch" placeholder="Search" type="text" [(ngModel)]="searchInput" (keypress)="filterData()" >
+    </div>
+  </section> -->
+
+  <h2>Jogos Registrados</h2>
+
+  <section class="gameList">
+    <app-game-card *ngFor="let game of gameList" [gameAssets]="game" />
+  </section>
+</main>

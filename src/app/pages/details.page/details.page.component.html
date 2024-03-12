@@ -1,0 +1,59 @@
+<div class="details_container">
+  <header>
+    <button aria-label="Back to Home">
+      <a href="/" class="back_btn" aria-label="Back to Home" >
+        <ng-icon name="ionChevronBackOutline" />
+      </a>
+    </button>
+    <div class="detailBackground">
+      <img class="detailImage" [src]="game.imgBanner" [alt]="'Imagem ilustrativa do jogo ' + game.name" >
+    </div>
+
+    <div class="logo">
+      <img class="logoImg" [src]="game.logo" [alt]="'Logo do jogo ' + game.name" >
+  </div>
+  </header>
+  <main>
+    <section class="firstInfo">
+      <app-info-card iconName="ionCalendarOutline" [content]="game.release" />
+      <app-info-card iconName="ionGameControllerOutline" [content]="game.plataform" />
+      <app-info-card iconName="ionPeopleOutline" [content]="nPlayers" />
+      <app-info-card iconName="ionStarOutline" [content]="game.gameRating.toString()" />
+    </section>
+
+    <section class="resume">
+        <h2>Resumo do jogo:</h2>
+        <p class="gameResume">{{game.about}}</p>
+    </section>
+
+    <section class="gameTrailer">
+      <h2>Trailer:</h2>
+      <video controls preload="auto" muted autoplay loop [volume]="0" >
+        <source [src]="game.gameTrailer" />
+      </video>
+    </section>
+
+    <section class="about">
+      <h2>Sobre o jogo:</h2>
+      <h3>Publishers:</h3>
+      <ul>
+        <li *ngFor="let pub of game.publishers" >{{pub}}</li>
+      </ul>
+      <h3>Developers:</h3>
+      <ul>
+        <li *ngFor="let dev of game.devlopers" >{{dev}}</li>
+      </ul>
+      <h3>Categories:</h3>
+      <ul>
+        <li *ngFor="let gen of game.genres" >{{gen}}</li>
+      </ul>
+    </section>
+
+    <section class="gameImages">
+      <h2>Galeria do jogo:</h2>
+      <div class="images">
+        <img *ngFor="let img of game.gameImages" [src]="img" [alt]="'Screenshot do jogo ' + game.name">
+      </div>
+    </section>
+  </main>
+</div>

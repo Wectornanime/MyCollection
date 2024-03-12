@@ -1,0 +1,16 @@
+.infoCard_container {
+  // border: 1px solid black;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px;
+  padding-left: 4px;
+  width: 130px;
+
+  ng-icon {
+    display: flex;
+    align-items: center;
+  }
+}

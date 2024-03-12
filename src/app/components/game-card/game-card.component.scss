@@ -1,0 +1,22 @@
+.game-card_container {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 150px;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  a {
+    height: 100%;
+    width: 100%;
+  }
+
+  img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+}
