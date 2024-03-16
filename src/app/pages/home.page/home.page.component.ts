@@ -20,15 +20,34 @@ import { GameDetails } from '../../types/game.type';
   styleUrl: './home.page.component.scss'
 })
 export class HomePageComponent {
-  gameList!:GameDetails[];
+  private gameList!: GameDetails[];
+  showGameList!: GameDetails[];
   searchInput!: string;
 
   ngOnInit(): void {
-    this.gameList = this.getDatas();
+    this.getDatas();
   }
 
-  getDatas():GameDetails[] {
-    return gameList;
+  getDatas(): void {
+    const list = gameList;
+
+    this.gameList = list;
+    this.filterData();
+  };
+
+  filterData(): void {
+    if (this.searchInput) {
+      this.showGameList = [];
+
+      this.gameList.map(game => {
+        if (game.name.toLocaleLowerCase().search(this.searchInput.replace(/\s/g, '').toLowerCase()) >= 0 ) {
+          this.showGameList.push(game);
+        };
+      });
+
+    } else {
+      this.showGameList = this.gameList;
+    };
   };
 
 }
