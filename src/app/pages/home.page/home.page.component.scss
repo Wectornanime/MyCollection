@@ -18,6 +18,7 @@ main {
     gap: 5px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: var(--color-2);
 
     label {
       display: flex;
@@ -29,7 +30,7 @@ main {
       height: 100%;
       width: 100%;
       border: none;
-      background-color: var(--color-1);
+      background-color: unset;
     }
 
     input:focus {
