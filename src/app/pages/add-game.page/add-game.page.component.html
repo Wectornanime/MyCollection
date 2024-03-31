@@ -5,15 +5,11 @@
       <input name="name" id="name" type="text">
     </div>
     <div>
-      <label for="release">Data de Lançamento:</label>
-      <input name="release" id="release" type="date">
-    </div>
-    <div>
       <label for="platform">Plataforma:</label>
       <select name="platform" id="platform" [(ngModel)]="plID">
         <option *ngFor="let opt of plataformList.platforms" [value]="opt.platform_id">{{opt.platform_name}}</option>
       </select>
     </div>
   </form>
-  <h1>{{plID}}</h1>
+  <h1>Results</h1>
 </div>
