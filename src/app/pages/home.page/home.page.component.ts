@@ -6,7 +6,7 @@ import { ionSearchOutline, ionAddOutline } from '@ng-icons/ionicons';
 import { RouterLink } from '@angular/router';
 
 //components
-import { GameCardComponent } from '../../components/game-card/game-card.component';
+import { GameCardComponent } from '../../components/home/game-card/game-card.component';
 
 //others
 import { gameList } from '../../data/gamelist.data';
