@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
-import { ionSearchOutline } from '@ng-icons/ionicons'
+import { ionSearchOutline, ionAddOutline } from '@ng-icons/ionicons';
+import { RouterLink } from '@angular/router';
 
 //components
 import { GameCardComponent } from '../../components/game-card/game-card.component';
@@ -14,8 +15,8 @@ import { GameDetails } from '../../types/game.type';
 @Component({
   selector: 'app-home.page',
   standalone: true,
-  imports: [CommonModule, GameCardComponent, NgIconComponent, FormsModule],
-  providers: [provideIcons({ionSearchOutline})],
+  imports: [CommonModule, GameCardComponent, NgIconComponent, FormsModule, RouterLink],
+  providers: [provideIcons({ionSearchOutline, ionAddOutline})],
   templateUrl: './home.page.component.html',
   styleUrl: './home.page.component.scss'
 })

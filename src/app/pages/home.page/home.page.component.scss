@@ -39,9 +39,25 @@ main {
     }
   }
 
-  h2 {
+  .title {
     width: 100%;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h2 {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    button {
+      background-color: transparent;
+      border: none;
+
+      ng-icon {
+        font-size: 1.6em;
+      }
+    }
   }
 
   .gameList {

@@ -13,7 +13,12 @@
     </div>
   </section>
 
-  <h2>Jogos Registrados</h2>
+  <div class="title">
+    <h2>Jogos Registrados</h2>
+    <button routerLink="/addGame" aria-label="Adicionar Jogo" >
+      <ng-icon name="ionAddOutline" />
+    </button>
+  </div>
 
   <section class="gameList">
     <app-game-card *ngFor="let game of showGameList" [gameAssets]="game" />
