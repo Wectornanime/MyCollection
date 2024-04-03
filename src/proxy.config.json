@@ -1,6 +1,8 @@
 {
   "/api": {
     "target": "https://api.mobygames.com/v1/games",
-    "secure": false
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
   }
 }

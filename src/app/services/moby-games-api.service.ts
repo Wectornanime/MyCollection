@@ -13,7 +13,7 @@ export class MobyGamesApiService {
 
 
   public getDatasByGame(title: string) {
-    const url = `/api?api_key=${this.api_key}&title=${title}`;
+    const url = `/api?api_key=${this.api_key}&title=dragon`;
 
     this.http.get(url).subscribe(
       (res) => console.log(res),
