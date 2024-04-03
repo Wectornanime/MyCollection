@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
+import { SteamGridDbService } from '../../services/steam-grid-db.service';
+import { MobyGamesApiService } from '../../services/moby-games-api.service';
+
 interface plt  {
   platforms:{
     platform_id: number;
@@ -14,7 +17,8 @@ interface plt  {
   standalone: true,
   imports: [CommonModule, FormsModule],
   templateUrl: './add-game.page.component.html',
-  styleUrl: './add-game.page.component.scss'
+  styleUrl: './add-game.page.component.scss',
+  providers: [SteamGridDbService]
 })
 export class AddGamePageComponent {
 
@@ -1316,5 +1320,13 @@ export class AddGamePageComponent {
         }
     ]
 };
+
+  gameName!: string;
+
+  constructor(private db: SteamGridDbService, private moby:MobyGamesApiService){}
+
+  getDatas() {
+    this.moby.getDatasByGame(this.gameName);
+  }
 
 }

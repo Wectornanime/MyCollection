@@ -2,7 +2,7 @@
   <form action="">
     <div>
       <label for="name">Nome:</label>
-      <input name="name" id="name" type="text">
+      <input name="name" id="name" type="text" [(ngModel)]="gameName">
     </div>
     <div>
       <label for="platform">Plataforma:</label>
@@ -12,4 +12,5 @@
     </div>
   </form>
   <h1>Results</h1>
+  <button (click)="getDatas()">clica</button>
 </div>
