@@ -11,11 +11,14 @@ export class MobyGamesApiService {
 
   constructor(private http:HttpClient) { }
 
-
   public getDatasByGame(title: string) {
-    const url = `/api?api_key=${this.api_key}&title=dragon`;
+    const url = `${this.url_base}?api_key=${this.api_key}&title=dragon`;
 
-    this.http.get(url).subscribe(
+    const  headers = new HttpHeaders()
+      .set('Content-Type', 'application/json')
+      .append("Access-Control-Allow-Origin", "*");
+
+    this.http.get(url, {headers: headers, responseType: "text"}).subscribe(
       (res) => console.log(res),
       (err) => console.log(err)
     )
