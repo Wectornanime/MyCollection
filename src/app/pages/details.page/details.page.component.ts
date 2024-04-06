@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
 import {
   ionCalendarOutline,
@@ -21,7 +21,7 @@ import { GameDetails } from '../../types/game.type';
 @Component({
   selector: 'app-details.page',
   standalone: true,
-  imports: [CommonModule, NgIconComponent, InfoCardComponent, CarouselComponent],
+  imports: [CommonModule, RouterLink, NgIconComponent, InfoCardComponent, CarouselComponent],
   providers: [
     provideIcons({
       ionCalendarOutline,

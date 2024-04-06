@@ -17,9 +17,10 @@ header {
     border: none;
     background-color: transparent;
 
-    a {
+    ng-icon {
       text-decoration: none;
       font-size: 2em;
+      cursor: pointer;
     }
   }
 

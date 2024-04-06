@@ -10,7 +10,7 @@ import { MyGameListService } from '../../services/my-game-list.service';
 import { GameCardComponent } from '../../components/home/game-card/game-card.component';
 
 //others
-import { gameList } from '../../data/gamelist.data';
+// import { gameList } from '../../data/gamelist.data';
 import { GameDetails } from '../../types/game.type';
 
 @Component({

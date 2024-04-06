@@ -1,9 +1,7 @@
 <div class="details_container">
   <header>
-    <button aria-label="Back to Home">
-      <a href="/" class="back_btn" aria-label="Back to Home" >
-        <ng-icon name="ionChevronBackOutline" />
-      </a>
+    <button routerLink="/" aria-label="Back to Home">
+      <ng-icon name="ionChevronBackOutline" />
     </button>
     <div class="detailBackground">
       <img class="detailImage" [src]="game.imgBanner" [alt]="'Imagem ilustrativa do jogo ' + game.name" >
