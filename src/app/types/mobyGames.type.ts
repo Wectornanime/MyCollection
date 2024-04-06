@@ -26,5 +26,11 @@ export interface Game {
   }[];
 }
 
+export interface Plataform  {
+  platforms:{
+    platform_id: number;
+    platform_name: string;
+  }[]
+}
 
 
