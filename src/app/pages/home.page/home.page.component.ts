@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { NgIconComponent, provideIcons } from '@ng-icons/core';
 import { ionSearchOutline, ionAddOutline } from '@ng-icons/ionicons';
 import { RouterLink } from '@angular/router';
+import { MyGameListService } from '../../services/my-game-list.service';
 
 //components
 import { GameCardComponent } from '../../components/home/game-card/game-card.component';
@@ -25,15 +26,19 @@ export class HomePageComponent {
   showGameList!: GameDetails[];
   searchInput!: string;
 
+  constructor(private gameService: MyGameListService) {}
+
   ngOnInit(): void {
     this.getDatas();
   }
 
   getDatas(): void {
-    const list = gameList;
-
-    this.gameList = list;
-    this.filterData();
+    this.gameService.getGames().subscribe(
+      (res:GameDetails[]) => {
+        this.gameList = res;
+        this.showGameList = res;
+      },
+    )
   };
 
   filterData(): void {

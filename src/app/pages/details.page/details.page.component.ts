@@ -40,7 +40,7 @@ export class DetailsPageComponent {
   game!:GameDetails;
   nPlayers!: string;
 
-  constructor(private  route:ActivatedRoute) {}
+  constructor(private route:ActivatedRoute) {}
 
   ngOnInit(): void {
     this.id = +this.route.snapshot.paramMap.get('id')!; // Convert string to number
