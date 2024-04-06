@@ -23,4 +23,9 @@ export class AddGamePageComponent {
 
   constructor(){}
 
+  getDatas() {
+    console.log('Sem dados por enquanto!!');
+    console.error('Você não deveria estar aqui!');
+  }
+
 }

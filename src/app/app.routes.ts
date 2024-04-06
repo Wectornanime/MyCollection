@@ -8,5 +8,5 @@ import { AddGamePageComponent } from './pages/add-game.page/add-game.page.compon
 export const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'details/:id', component: DetailsPageComponent },
-  { path: 'addGame', component: AddGamePageComponent },
+  // { path: 'addGame', component: AddGamePageComponent },
 ];
