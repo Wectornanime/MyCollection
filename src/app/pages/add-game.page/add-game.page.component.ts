@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { SteamGridDbService } from '../../services/steam-grid-db.service';
 import { MobyGamesApiService } from '../../services/moby-games-api.service';
+import { MobyGames } from '../../types/mobyGames.type';
 
 interface plt  {
   platforms:{
@@ -1326,7 +1327,10 @@ export class AddGamePageComponent {
   constructor(private db: SteamGridDbService, private moby:MobyGamesApiService){}
 
   getDatas() {
-    this.moby.getDatasByGame(this.gameName);
+    this.moby.getDatasByGame(this.gameName).subscribe(
+      (res:MobyGames) => console.log(res),
+      (err) => console.error('Deu ruim: ', err)
+    );
   }
 
 }

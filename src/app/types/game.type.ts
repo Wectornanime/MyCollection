@@ -14,5 +14,4 @@ export interface GameDetails {
   gameImages: string[];
   gameTrailer: string;
   gameRating: number;
-
 }

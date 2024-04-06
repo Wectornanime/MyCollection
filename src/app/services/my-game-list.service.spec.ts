@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { MobyGamesApiService } from './moby-games-api.service';
+import { MyGameListService } from './my-game-list.service';
 
-describe('MobyGamesApiService', () => {
-  let service: MobyGamesApiService;
+describe('MyGameListService', () => {
+  let service: MyGameListService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(MobyGamesApiService);
+    service = TestBed.inject(MyGameListService);
   });
 
   it('should be created', () => {
