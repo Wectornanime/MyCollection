@@ -36,9 +36,14 @@ export class HomePageComponent {
     this.gameService.getGames().subscribe(
       (res:GameDetails[]) => {
         this.gameList = res;
-        this.showGameList = res;
+        this.showGameList = res
       },
     )
+
+    // const list = gameList;
+
+    // this.gameList = list;
+    // this.filterData();
   };
 
   filterData(): void {
