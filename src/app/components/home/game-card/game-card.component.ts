@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
-import { GameDetails } from '../../types/game.type';
+import { GameDetails } from '../../../types/game.type';
 
 @Component({
   selector: 'app-game-card',

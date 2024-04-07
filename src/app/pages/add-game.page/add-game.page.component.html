@@ -1,0 +1,16 @@
+<div class="add-game_container">
+  <form action="">
+    <div>
+      <label for="name">Nome:</label>
+      <input name="name" id="name" type="text" [(ngModel)]="gameName">
+    </div>
+    <div>
+      <label for="platform">Plataforma:</label>
+      <select name="platform" id="platform" [(ngModel)]="plID">
+        <option *ngFor="let opt of plataformList.platforms" [value]="opt.platform_id">{{opt.platform_name}}</option>
+      </select>
+    </div>
+  </form>
+  <h1>Results</h1>
+  <button (click)="getDatas()">clica</button>
+</div>
